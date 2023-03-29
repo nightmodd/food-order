@@ -42,3 +42,34 @@
   background-color: #641e03;
   border-color: #641e03;
 }
+
+@media screen and (max-width: 500px) {
+  .meal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .meal_data {
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .meal h3 {
+    text-align: center;
+  }
+
+  .description {
+    text-align: center;
+  }
+
+  .price {
+    text-align: center;
+  }
+
+  .form {
+    text-align: center;
+  }
+}
