@@ -44,3 +44,12 @@
   background-color: #8a2b06;
   color: white;
 }
+
+.orderSucceed,
+.orderIsSubmitting {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  color: #8a2b06;
+}

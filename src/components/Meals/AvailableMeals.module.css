@@ -22,3 +22,21 @@
     transform: translateY(0);
   }
 }
+
+.mealsLoading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 2rem;
+}
+
+.mealsError {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  color: red;
+}
+
+
